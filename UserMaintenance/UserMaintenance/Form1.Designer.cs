@@ -35,6 +35,7 @@
             this.labelFirst = new System.Windows.Forms.Label();
             this.txtFirst = new System.Windows.Forms.TextBox();
             this.btnFileSa = new System.Windows.Forms.Button();
+            this.btnDel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -97,11 +98,22 @@
             this.btnFileSa.UseVisualStyleBackColor = true;
             this.btnFileSa.Click += new System.EventHandler(this.btnFileSa_Click);
             // 
+            // btnDel
+            // 
+            this.btnDel.Location = new System.Drawing.Point(293, 146);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(75, 23);
+            this.btnDel.TabIndex = 7;
+            this.btnDel.Text = "Del";
+            this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(526, 364);
+            this.Controls.Add(this.btnDel);
             this.Controls.Add(this.btnFileSa);
             this.Controls.Add(this.txtFirst);
             this.Controls.Add(this.labelFirst);
@@ -125,6 +137,7 @@
         private System.Windows.Forms.Label labelFirst;
         private System.Windows.Forms.TextBox txtFirst;
         private System.Windows.Forms.Button btnFileSa;
+        private System.Windows.Forms.Button btnDel;
     }
 }
 

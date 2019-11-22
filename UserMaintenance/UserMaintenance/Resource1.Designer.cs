@@ -70,6 +70,15 @@ namespace UserMaintenance {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Fájlba Írás.
+        /// </summary>
+        internal static string FIleSave {
+            get {
+                return ResourceManager.GetString("FIleSave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Teljesnév.
         /// </summary>
         internal static string FullName {

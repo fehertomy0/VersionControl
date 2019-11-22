@@ -34,6 +34,7 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.labelFirst = new System.Windows.Forms.Label();
             this.txtFirst = new System.Windows.Forms.TextBox();
+            this.btnFileSa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -86,11 +87,22 @@
             this.txtFirst.Size = new System.Drawing.Size(160, 20);
             this.txtFirst.TabIndex = 5;
             // 
+            // btnFileSa
+            // 
+            this.btnFileSa.Location = new System.Drawing.Point(290, 116);
+            this.btnFileSa.Name = "btnFileSa";
+            this.btnFileSa.Size = new System.Drawing.Size(75, 23);
+            this.btnFileSa.TabIndex = 6;
+            this.btnFileSa.Text = "Save";
+            this.btnFileSa.UseVisualStyleBackColor = true;
+            this.btnFileSa.Click += new System.EventHandler(this.btnFileSa_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(526, 364);
+            this.Controls.Add(this.btnFileSa);
             this.Controls.Add(this.txtFirst);
             this.Controls.Add(this.labelFirst);
             this.Controls.Add(this.btnAdd);
@@ -112,6 +124,7 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label labelFirst;
         private System.Windows.Forms.TextBox txtFirst;
+        private System.Windows.Forms.Button btnFileSa;
     }
 }
 

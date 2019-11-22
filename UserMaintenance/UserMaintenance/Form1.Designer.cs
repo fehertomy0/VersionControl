@@ -32,8 +32,6 @@
             this.txtLast = new System.Windows.Forms.TextBox();
             this.labelLast = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.labelFirst = new System.Windows.Forms.Label();
-            this.txtFirst = new System.Windows.Forms.TextBox();
             this.btnFileSa = new System.Windows.Forms.Button();
             this.btnDel = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -64,7 +62,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(290, 64);
+            this.btnAdd.Location = new System.Drawing.Point(290, 38);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(231, 46);
             this.btnAdd.TabIndex = 3;
@@ -72,25 +70,9 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.button1_Click);
             // 
-            // labelFirst
-            // 
-            this.labelFirst.AutoSize = true;
-            this.labelFirst.Location = new System.Drawing.Point(290, 38);
-            this.labelFirst.Name = "labelFirst";
-            this.labelFirst.Size = new System.Drawing.Size(41, 15);
-            this.labelFirst.TabIndex = 4;
-            this.labelFirst.Text = "label2";
-            // 
-            // txtFirst
-            // 
-            this.txtFirst.Location = new System.Drawing.Point(361, 38);
-            this.txtFirst.Name = "txtFirst";
-            this.txtFirst.Size = new System.Drawing.Size(160, 20);
-            this.txtFirst.TabIndex = 5;
-            // 
             // btnFileSa
             // 
-            this.btnFileSa.Location = new System.Drawing.Point(290, 116);
+            this.btnFileSa.Location = new System.Drawing.Point(290, 90);
             this.btnFileSa.Name = "btnFileSa";
             this.btnFileSa.Size = new System.Drawing.Size(75, 23);
             this.btnFileSa.TabIndex = 6;
@@ -100,7 +82,7 @@
             // 
             // btnDel
             // 
-            this.btnDel.Location = new System.Drawing.Point(293, 146);
+            this.btnDel.Location = new System.Drawing.Point(290, 119);
             this.btnDel.Name = "btnDel";
             this.btnDel.Size = new System.Drawing.Size(75, 23);
             this.btnDel.TabIndex = 7;
@@ -115,8 +97,6 @@
             this.ClientSize = new System.Drawing.Size(526, 364);
             this.Controls.Add(this.btnDel);
             this.Controls.Add(this.btnFileSa);
-            this.Controls.Add(this.txtFirst);
-            this.Controls.Add(this.labelFirst);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.labelLast);
             this.Controls.Add(this.txtLast);
@@ -134,8 +114,6 @@
         private System.Windows.Forms.TextBox txtLast;
         private System.Windows.Forms.Label labelLast;
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Label labelFirst;
-        private System.Windows.Forms.TextBox txtFirst;
         private System.Windows.Forms.Button btnFileSa;
         private System.Windows.Forms.Button btnDel;
     }

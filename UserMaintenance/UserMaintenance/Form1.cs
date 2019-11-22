@@ -26,6 +26,7 @@ namespace UserMaintenance
             listBox1.DisplayMember = "FullName";
 
             btnFileSa.Text = Resource1.FIleSave;
+            btnDel.Text = Resource1.Del;
         }
 
         private void button1_Click(object sender, EventArgs e)
